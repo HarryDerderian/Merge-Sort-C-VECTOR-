@@ -1,19 +1,18 @@
 #include "MergeSort.h"  
 #include <iostream>
-#include <vector>  
 #include <chrono>        
 #include <algorithm>
 using namespace std;
 using namespace chrono;
 
-
 void randomizeVec(vector<int>& vec)
 {
 	auto iter = vec.begin();
 	auto end = vec.end();
-	while (iter != end) {
-		*iter = rand();
-		iter++;
+	while (iter != end) 
+	{
+	   *iter = rand();
+            iter++;
 	}
 }
 
