@@ -1,5 +1,4 @@
 #include "MergeSort.h"
-#include<iostream>
 
 void merge(vector<int>& data, int leftStart, int leftEnd, int rightEnd)
 {
